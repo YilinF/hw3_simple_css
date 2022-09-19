@@ -46,7 +46,7 @@ div {
     line-height: 2;
 }
 
-.red {
+div.red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
@@ -91,9 +91,8 @@ div.green {
 }
 
 footer {
-    border-style: solid;
-    border-color: white;
-    background-image: linear-gradient(#000000, #0000FF 25%, #0066FF 70%, #000000)
+    border: 5px solid white;
+    background-image: linear-gradient(270deg, #000000, #0000FF 25%, #0066FF 70%, #000000)
 }
 
 footer p {
